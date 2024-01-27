@@ -4,19 +4,12 @@
   "description": "Landing page for space",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css -w",
-    "devserver": "live-server",
-    "start": "npm-run-all --parallel devserver watch:sass",
-    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
-    "compress:css": "node-sass css/style.concat.css css/style.css --output-style compressed",
-    "build:css": "npm-run-all compile:sass compress:css"
+    "compile:sass": "node-sass sass/main.scss starter/css/style.css -w"
   },
   "author": "Mahdi-Tahavorgar",
   "license": "ISC",
-  "devDependencies": {
-    "concat": "^1.0.3",
-    "live-server": "^1.2.1",
-    "node-sass": "^4.5.3",
-    "npm-run-all": "^4.1.1"
+  "dependencies": {
+    "node-sass": "^9.0.0"
   }
 }
+
