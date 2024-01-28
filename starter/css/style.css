@@ -28,4 +28,6 @@ body {
   line-height: 1.6rem;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/img/Photos-Earth-From-Space.jpg");
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
