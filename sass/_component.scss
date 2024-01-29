@@ -1,0 +1,24 @@
+.header {
+  text-transform: uppercase;
+  &__title {
+    font-size: 2rem;
+  }
+
+  &__navlink {
+    display: flex;
+    list-style: none;
+    li a {
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+  }
+  &__profile {
+    display: flex;
+    &--img {
+      height: 50px;
+      width: 50px;
+      border-radius: 100%;
+      object-fit: cover;
+    }
+  }
+}
