@@ -52,3 +52,14 @@
     }
   }
 }
+
+.left-side {
+  &__celestialBodies {
+    display: flex;
+    justify-content: space-evenly;
+    img {
+      height: 90px;
+      width: 90px;
+    }
+  }
+}

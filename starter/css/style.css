@@ -78,6 +78,13 @@ body {
       border-radius: 100%;
       object-fit: cover; }
 
+.left-side__celestialBodies {
+  display: flex;
+  justify-content: space-evenly; }
+  .left-side__celestialBodies img {
+    height: 90px;
+    width: 90px; }
+
 .header {
   display: flex;
   text-transform: capitalize;
