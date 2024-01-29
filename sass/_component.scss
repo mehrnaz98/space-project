@@ -54,13 +54,27 @@
 }
 
 .left-side {
-  flex-direction: column;
   &__celestialBodies {
     display: flex;
     justify-content: space-evenly;
     img {
       height: 90px;
       width: 90px;
+    }
+  }
+}
+
+.center {
+  &__content {
+    margin-top: 2rem;
+    text-align: left;
+    padding: 2rem 1.5rem;
+    text-align: justify;
+    &__title {
+      font-size: 3rem;
+    }
+    &__paragraph {
+      padding-top: 2rem;
     }
   }
 }
