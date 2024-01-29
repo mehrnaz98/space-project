@@ -7,6 +7,9 @@
   &__navlink {
     display: flex;
     list-style: none;
+    :not(:last-child) {
+      margin-right: 2rem;
+    }
     li a {
       color: var(--color-primary);
       text-decoration: none;
@@ -14,6 +17,7 @@
   }
   &__profile {
     display: flex;
+    align-items: center;
     &--img {
       height: 50px;
       width: 50px;
