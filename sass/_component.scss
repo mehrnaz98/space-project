@@ -65,16 +65,55 @@
 }
 
 .center {
+  padding: 2rem 1.5rem;
   &__content {
     margin-top: 2rem;
     text-align: left;
-    padding: 2rem 1.5rem;
     text-align: justify;
     &__title {
       font-size: 3rem;
     }
     &__paragraph {
       padding-top: 2rem;
+    }
+  }
+
+  &__publishers {
+    display: flex;
+    align-items: center;
+    &--name {
+      font-size: 1rem;
+      text-transform: capitalize;
+      margin-right: 2rem;
+      margin-top: 5rem;
+    }
+
+    &--picture {
+      position: relative;
+      img {
+        height: 45px;
+        width: 45px;
+        border-radius: 100px;
+        box-shadow: 0 0 0 3px var(--color-white);
+      }
+
+      &--1 {
+        position: absolute;
+        left: 25rem;
+        bottom: -2rem;
+      }
+
+      &--2 {
+        position: absolute;
+        left: 28rem;
+        bottom: -2rem;
+      }
+
+      &--3 {
+        position: absolute;
+        left: 31rem;
+        bottom: -2rem;
+      }
     }
   }
 }

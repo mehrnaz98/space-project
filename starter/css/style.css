@@ -85,15 +85,43 @@ body {
     height: 90px;
     width: 90px; }
 
-.center__content {
-  margin-top: 2rem;
-  text-align: left;
-  padding: 2rem 1.5rem;
-  text-align: justify; }
-  .center__content__title {
-    font-size: 3rem; }
-  .center__content__paragraph {
-    padding-top: 2rem; }
+.center {
+  padding: 2rem 1.5rem; }
+  .center__content {
+    margin-top: 2rem;
+    text-align: left;
+    text-align: justify; }
+    .center__content__title {
+      font-size: 3rem; }
+    .center__content__paragraph {
+      padding-top: 2rem; }
+  .center__publishers {
+    display: flex;
+    align-items: center; }
+    .center__publishers--name {
+      font-size: 1rem;
+      text-transform: capitalize;
+      margin-right: 2rem;
+      margin-top: 5rem; }
+    .center__publishers--picture {
+      position: relative; }
+      .center__publishers--picture img {
+        height: 45px;
+        width: 45px;
+        border-radius: 100px;
+        box-shadow: 0 0 0 3px var(--color-white); }
+      .center__publishers--picture--1 {
+        position: absolute;
+        left: 25rem;
+        bottom: -2rem; }
+      .center__publishers--picture--2 {
+        position: absolute;
+        left: 28rem;
+        bottom: -2rem; }
+      .center__publishers--picture--3 {
+        position: absolute;
+        left: 31rem;
+        bottom: -2rem; }
 
 .header {
   display: flex;
