@@ -6,3 +6,25 @@
   padding: 2rem 0;
   font-size: 2rem;
 }
+
+.content {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.left-side {
+  display: flex;
+  flex: 1;
+}
+
+.center {
+  display: flex;
+  flex: 0 0 26%;
+  border-right: 1px solid var(--color-white);
+  border-left: 1px solid var(--color-white);
+}
+
+.right-side {
+  display: flex;
+  flex: 1;
+}
