@@ -28,6 +28,21 @@
     &--notif {
       font-size: 3rem;
       color: var(--color-primary);
+      position: relative;
+      span {
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        border-radius: 100%;
+        background-color: var(--color-red);
+        top: -1rem;
+        right: -1rem;
+        font-size: 1.5rem;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        line-height: 2.5rem;
+      }
     }
     &--img {
       height: 50px;

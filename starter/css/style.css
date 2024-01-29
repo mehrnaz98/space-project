@@ -7,7 +7,8 @@
 :root {
   --color-primary: #e2e2e2;
   --color-black: #000;
-  --color-white: #fff; }
+  --color-white: #fff;
+  --color-red: #ff2020; }
 
 * {
   padding: 0;
@@ -56,7 +57,21 @@ body {
       margin-right: 1.5rem; }
     .header__profile--notif {
       font-size: 3rem;
-      color: var(--color-primary); }
+      color: var(--color-primary);
+      position: relative; }
+      .header__profile--notif span {
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        border-radius: 100%;
+        background-color: var(--color-red);
+        top: -1rem;
+        right: -1rem;
+        font-size: 1.5rem;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        line-height: 2.5rem; }
     .header__profile--img {
       height: 50px;
       width: 50px;
