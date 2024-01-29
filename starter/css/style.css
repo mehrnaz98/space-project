@@ -49,6 +49,9 @@ body {
   .header__profile {
     display: flex;
     align-items: center; }
+    .header__profile--notif {
+      font-size: 3rem;
+      color: var(--color-primary); }
     .header__profile--img {
       height: 50px;
       width: 50px;

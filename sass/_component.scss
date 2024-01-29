@@ -18,6 +18,10 @@
   &__profile {
     display: flex;
     align-items: center;
+    &--notif {
+      font-size: 3rem;
+      color: var(--color-primary);
+    }
     &--img {
       height: 50px;
       width: 50px;
