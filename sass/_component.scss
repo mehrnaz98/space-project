@@ -13,6 +13,10 @@
     li a {
       color: var(--color-primary);
       text-decoration: none;
+      i {
+        font-size: 1.5rem;
+        transform: translate(1px, 6px);
+      }
     }
   }
   &__profile {

@@ -46,6 +46,9 @@ body {
     .header__navlink li a {
       color: var(--color-primary);
       text-decoration: none; }
+      .header__navlink li a i {
+        font-size: 1.5rem;
+        transform: translate(1px, 6px); }
   .header__profile {
     display: flex;
     align-items: center; }
