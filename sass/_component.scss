@@ -54,6 +54,7 @@
 }
 
 .left-side {
+  flex-direction: column;
   &__celestialBodies {
     display: flex;
     justify-content: space-evenly;
