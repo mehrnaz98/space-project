@@ -18,6 +18,9 @@
   &__profile {
     display: flex;
     align-items: center;
+    :not(:last-child) {
+      margin-right: 1.5rem;
+    }
     &--notif {
       font-size: 3rem;
       color: var(--color-primary);
