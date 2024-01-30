@@ -87,23 +87,16 @@ body {
 
 .center {
   padding: 2rem 1.5rem; }
-  .center__content {
-    margin-top: 2rem;
-    text-align: left;
-    text-align: justify; }
-    .center__content__title {
-      font-size: 3rem;
-      text-transform: capitalize; }
-    .center__content__paragraph {
-      padding-top: 2rem; }
   .center__publishers {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    padding: 2rem 0; }
     .center__publishers--name {
-      font-size: 1rem;
+      font-size: 1.2rem;
+      font-weight: 800;
       text-transform: capitalize;
       margin-right: 2rem;
-      margin-top: 5rem; }
+      margin-top: 3rem; }
     .center__publishers--picture {
       position: relative; }
       .center__publishers--picture img {
@@ -123,6 +116,17 @@ body {
         position: absolute;
         left: 31rem;
         bottom: -2rem; }
+
+/*article__content*/
+.article__content {
+  margin-top: 2rem;
+  text-align: left;
+  text-align: justify; }
+  .article__content__title {
+    font-size: 3rem;
+    text-transform: capitalize; }
+  .article__content__paragraph {
+    padding-top: 2rem; }
 
 .header {
   display: flex;
