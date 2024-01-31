@@ -62,10 +62,12 @@
 .left-side {
   padding-right: 10px;
   padding-left: 10px;
+  margin-right: -11rem;
 
   &__celestialBodies {
     display: flex;
     justify-content: space-evenly;
+    margin-right: 14rem;
 
     img {
       height: 90px;
@@ -102,8 +104,9 @@
   }
 
   @include respond-to(tablet) {
+    margin-right: 0;
     &__celestialBodies {
-      padding: 2rem 0;
+      padding: 2rem 0 4rem 0;
 
       img {
         height: 70px;
@@ -114,6 +117,7 @@
     &__about {
       &--paragraph {
         width: 100%;
+        padding-bottom: 2rem;
       }
     }
   }

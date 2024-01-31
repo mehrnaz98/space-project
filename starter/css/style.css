@@ -99,10 +99,12 @@ body {
 
 .left-side {
   padding-right: 10px;
-  padding-left: 10px; }
+  padding-left: 10px;
+  margin-right: -11rem; }
   .left-side__celestialBodies {
     display: flex;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    margin-right: 14rem; }
     .left-side__celestialBodies img {
       height: 90px;
       width: 90px; }
@@ -128,13 +130,16 @@ body {
       color: var(--color-black);
       background: var(--color-white); }
   @media only screen and (max-width: 56.25em) {
-    .left-side__celestialBodies {
-      padding: 2rem 0; }
-      .left-side__celestialBodies img {
-        height: 70px;
-        width: 70px; }
-    .left-side__about--paragraph {
-      width: 100%; } }
+    .left-side {
+      margin-right: 0; }
+      .left-side__celestialBodies {
+        padding: 2rem 0 4rem 0; }
+        .left-side__celestialBodies img {
+          height: 70px;
+          width: 70px; }
+      .left-side__about--paragraph {
+        width: 100%;
+        padding-bottom: 2rem; } }
 
 .center {
   padding: 2rem 0rem; }
