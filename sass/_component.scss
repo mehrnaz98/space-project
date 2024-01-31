@@ -60,6 +60,9 @@
 }
 
 .left-side {
+  padding-right: 10px;
+  padding-left: 10px;
+
   &__celestialBodies {
     display: flex;
     justify-content: space-evenly;
@@ -148,6 +151,14 @@
   }
 }
 
+.right-side {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 /*article__content*/
 
 .article__content {
@@ -166,6 +177,10 @@
 
     &--2 {
       padding-top: 40px;
+    }
+
+    &--3 {
+      padding-top: 20px;
     }
   }
 
