@@ -182,7 +182,21 @@
   }
 
   &__paragraph {
+    font-size: 1.3rem;
     padding-top: 2rem;
     line-height: 22px;
+  }
+
+  &__list {
+    padding-top: 2rem;
+    line-height: 22px;
+    display: flex;
+    list-style: none;
+    font-size: 1.4rem;
+    text-align: left;
+
+    &--1 {
+      padding-right: 3rem;
+    }
   }
 }
