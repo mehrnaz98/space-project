@@ -1,3 +1,37 @@
+/* media queries */
+
+/*
+    breakpoints for devices
+
+    0 - 600px       ---->   Mobile
+    600px - 900px   ---->   Tablets
+    900px - 1200px  ---->   Desktop
+    1200px +        ---->   Bigger screens + infinite
+
+*/
+
+// 16px = 1em
+
+@mixin respond-to($size) {
+  @if $size == phone {
+    @media only screen and (max-width: 37.55em) {
+      @content;
+    }
+  } @else if $size == tablet {
+    @media only screen and (max-width: 56.25em) {
+      @content;
+    }
+  } @else if $size == tablet-land {
+    @media only screen and (max-width: 75em) {
+      @content;
+    }
+  } @else if $size == bigger-screens {
+    @media only screen and (min-width: 112.5em) {
+      @content;
+    }
+  }
+}
+
 /*
 --color-primary: #e2e2e2;
 --color-black: #000;
@@ -34,6 +68,14 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; //1rem=10px 10px/16=62.5
+
+  @include respond-to(tablet) {
+    font-size: 56.25%;
+  }
+
+  @include respond-to(phone) {
+    font-size: 50%;
+  }
 }
 
 body {
@@ -53,5 +95,5 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }

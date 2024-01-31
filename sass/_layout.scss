@@ -10,6 +10,9 @@
 .content {
   display: flex;
   font-size: 1.2rem;
+  @include respond-to(tablet) {
+    display: block;
+  }
 }
 
 .left-side {
@@ -24,6 +27,12 @@
   flex-direction: column;
   border-right: 1px solid var(--color-white);
   border-left: 1px solid var(--color-white);
+  @include respond-to(tablet) {
+    margin-top: 5rem;
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid var(--color-white);
+  }
 }
 
 .right-side {
