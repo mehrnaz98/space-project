@@ -85,6 +85,15 @@ body {
     height: 90px;
     width: 90px; }
 
+.left-side__about--paragraph {
+  line-height: 2;
+  text-align: left;
+  width: 80%;
+  font-size: 1.4rem;
+  margin-top: 18rem;
+  margin-bottom: 1rem;
+  text-align: justify; }
+
 .left-side__btn {
   margin-top: 3rem; }
   .left-side__btn a {

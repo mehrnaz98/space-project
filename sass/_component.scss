@@ -69,6 +69,19 @@
       width: 90px;
     }
   }
+
+  &__about {
+    &--paragraph {
+      line-height: 2;
+      text-align: left;
+      width: 80%;
+      font-size: 1.4rem;
+      margin-top: 18rem;
+      margin-bottom: 1rem;
+      text-align: justify;
+    }
+  }
+
   &__btn {
     margin-top: 3rem;
     a {
