@@ -163,9 +163,11 @@ body {
       .left-side__celestialBodies img {
         height: 70px;
         width: 70px; }
-    .left-side__about--paragraph {
-      width: 100%;
-      padding-bottom: 2rem; }
+    .left-side__about {
+      transform: translateY(0); }
+      .left-side__about--paragraph {
+        width: 100%;
+        padding-bottom: 2rem; }
     .left-side__btn {
       margin-top: 2rem; }
       .left-side__btn a {
