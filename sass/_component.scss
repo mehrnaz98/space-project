@@ -176,7 +176,7 @@
     &__about {
       transform: translateY(0);
       &--paragraph {
-        width: 100%;
+        width: 86%;
         padding-bottom: 2rem;
       }
     }
@@ -185,6 +185,20 @@
       margin-top: 2rem;
       a {
         padding: 1rem 2rem;
+      }
+    }
+  }
+  @include respond-to(phone) {
+    &__about {
+      &--paragraph {
+        width: 84%;
+      }
+    }
+    @include respond-to(small-phone) {
+      &__about {
+        &--paragraph {
+          width: 79%;
+        }
       }
     }
   }

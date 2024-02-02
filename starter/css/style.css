@@ -125,6 +125,9 @@ body {
       .header__profile--img {
         height: 35px;
         width: 35px; } }
+  @media only screen and (max-width: 30em) {
+    .header__navlink li a i {
+      display: none; } }
 
 .left-side {
   margin-top: 3rem;
@@ -166,12 +169,19 @@ body {
     .left-side__about {
       transform: translateY(0); }
       .left-side__about--paragraph {
-        width: 100%;
+        width: 86%;
         padding-bottom: 2rem; }
     .left-side__btn {
       margin-top: 2rem; }
       .left-side__btn a {
         padding: 1rem 2rem; } }
+  @media only screen and (max-width: 37.55em) {
+    .left-side__about--paragraph {
+      width: 84%; } }
+
+@media only screen and (max-width: 37.55em) and (max-width: 30em) {
+  .left-side__about--paragraph {
+    width: 79%; } }
 
 .center {
   padding: 2rem 0rem; }

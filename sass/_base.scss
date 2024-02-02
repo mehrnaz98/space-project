@@ -13,6 +13,11 @@
 // 16px = 1em
 
 @mixin respond-to($size) {
+  @if $size == small-phone {
+    @media only screen and (max-width: 30em) {
+      @content;
+    }
+  }
   @if $size == phone {
     @media only screen and (max-width: 37.55em) {
       @content;
