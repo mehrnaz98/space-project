@@ -8,6 +8,7 @@
   &__navlink {
     display: flex;
     list-style: none;
+
     :not(:last-child) {
       margin-right: 2rem;
     }
@@ -55,6 +56,66 @@
       width: 50px;
       border-radius: 100%;
       object-fit: cover;
+    }
+  }
+  @include respond-to(tablet) {
+    &__title {
+      display: none;
+    }
+
+    &__navlink {
+      :not(:last-child) {
+        margin-right: 1.5rem;
+      }
+      li a {
+        i {
+          font-size: 1.4rem;
+        }
+      }
+    }
+
+    &__profile {
+      :not(:last-child) {
+        margin-right: 1.5rem;
+      }
+      &--notif {
+        font-size: 2rem;
+        span {
+          height: 20px;
+          width: 20px;
+          top: -1.6rem;
+          right: -1.5rem;
+          font-size: 1.4rem;
+          line-height: 2rem;
+        }
+      }
+      &--img {
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  @include respond-to(phone) {
+    font-size: 1.6rem !important;
+
+    &__profile {
+      &--img {
+        height: 35px;
+        width: 35px;
+      }
+    }
+  }
+
+  @include respond-to(small-phone) {
+    &__navlink {
+      li a {
+        i {
+          display: none;
+        }
+      }
     }
   }
 }
@@ -120,6 +181,13 @@
         padding-bottom: 2rem;
       }
     }
+
+    &__btn {
+      margin-top: 2rem;
+      a {
+        padding: 1rem 2rem;
+      }
+    }
   }
 }
 
@@ -169,6 +237,18 @@
         left: 27rem;
         bottom: 0rem;
       }
+    }
+  }
+  @include respond-to(tablet-land) {
+    &__publishers {
+      display: block;
+    }
+  }
+
+  @include respond-to(tablet) {
+    &__publishers {
+      display: flex;
+      padding: 2rem 0;
     }
   }
 }
@@ -222,7 +302,7 @@
   }
 
   @include respond-to(tablet) {
-    padding: 2rem 2rem;
+    padding: 2rem 0rem;
 
     &__title {
       font-size: 2rem;
