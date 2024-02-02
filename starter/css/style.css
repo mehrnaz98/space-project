@@ -127,8 +127,7 @@ body {
         width: 35px; } }
 
 .left-side {
-  padding-right: 10px;
-  padding-left: 10px;
+  margin-top: 3rem;
   margin-right: -11rem; }
   .left-side__celestialBodies {
     display: flex;
@@ -159,20 +158,18 @@ body {
       color: var(--color-black);
       background: var(--color-white); }
   @media only screen and (max-width: 56.25em) {
-    .left-side {
-      margin-right: 0; }
-      .left-side__celestialBodies {
-        padding: 2rem 0 4rem 0; }
-        .left-side__celestialBodies img {
-          height: 70px;
-          width: 70px; }
-      .left-side__about--paragraph {
-        width: 100%;
-        padding-bottom: 2rem; }
-      .left-side__btn {
-        margin-top: 2rem; }
-        .left-side__btn a {
-          padding: 1rem 2rem; } }
+    .left-side__celestialBodies {
+      padding: 2rem 0 4rem 0; }
+      .left-side__celestialBodies img {
+        height: 70px;
+        width: 70px; }
+    .left-side__about--paragraph {
+      width: 100%;
+      padding-bottom: 2rem; }
+    .left-side__btn {
+      margin-top: 2rem; }
+      .left-side__btn a {
+        padding: 1rem 2rem; } }
 
 .center {
   padding: 2rem 0rem; }
